@@ -1,9 +1,85 @@
+<!DOCTYPE html>
 <html lang="es">
 <head>
-    <title>Página Simple</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Página Bonita</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            background-color: #f4f4f4;
+            color: #333;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background-color: #4CAF50;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+        nav {
+            display: flex;
+            justify-content: center;
+            margin: 20px 0;
+        }
+        nav a {
+            margin: 0 15px;
+            text-decoration: none;
+            color: #333;
+            font-weight: bold;
+        }
+        nav a:hover {
+            color: #4CAF50;
+        }
+        section {
+            padding: 20px;
+            background-color: white;
+            margin: 20px auto;
+            width: 80%;
+            box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+        }
+        footer {
+            background-color: #4CAF50;
+            color: white;
+            text-align: center;
+            padding: 10px;
+            position: absolute;
+            bottom: 0;
+            width: 100%;
+        }
+    </style>
 </head>
 <body>
-    <h1>¡Hola, Mundo!</h1>
-    <p>negro gay</p>
+    <header>
+        <h1>Bienvenido a mi página</h1>
+        <p>Una página simple pero bonita</p>
+    </header>
+
+    <nav>
+        <a href="#inicio">Inicio</a>
+        <a href="#sobre">Sobre mí</a>
+        <a href="#contacto">Contacto</a>
+    </nav>
+
+    <section id="inicio">
+        <h2>Inicio</h2>
+        <p>Esta es una página web de ejemplo para mostrar cómo hacer un diseño limpio y sencillo usando HTML y CSS.</p>
+    </section>
+
+    <section id="sobre">
+        <h2>Sobre mí</h2>
+        <p>Soy un entusiasta del desarrollo web y disfruto creando páginas simples y efectivas.</p>
+    </section>
+
+    <section id="contacto">
+        <h2>Contacto</h2>
+        <p>Puedes contactarme a través del correo <a href="mailto:correo@ejemplo.com">correo@ejemplo.com</a>.</p>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Mi página bonita</p>
+    </footer>
 </body>
 </html>
